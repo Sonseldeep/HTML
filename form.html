@@ -9,17 +9,40 @@
 
 <body>
   <header>Hello welcome</header>
+  <br />
+  <br />
   <form action="" method="get">
 
     <label for="email">Email:</label>
-    <input type="email" name="Email" id="email">
+    <input type="email" name="Email" id="email" required>
+    <br />
     <br />
     <label for="password">Password: </label>
-    <input type="password" name="Password" id="password">
+    <input type="password" name="Password" id="password" required>
+
+    <br />
+    <br />
+    <!-- note: radio garda always give same class Name and id else both will be selected instead of once -->
+
+    <label for="sex" required>Gender: </label>
+    <input type="radio" name="gender" id="sex" required>Male
+    <input type="radio" name="gender" id="sex" required>Female
+    <br />
+    <br />
+    <label for="DOB">DOB:</label>
+    <input type="date" name="date" id="DOB" required>
+    <br />
+    <br />
     <button type="submit">OK</button>
+    <br />
+    <br />
+
 
 
   </form>
+  <br />
+  <br />
+
   <!-- 
 note: without foorm xa vane user ko data post hunna -->
 
@@ -32,6 +55,16 @@ note: without foorm xa vane user ko data post hunna -->
   <button>Ok</button>
 
   <footer> OK Good Bye</footer>
+  <a href="https://www.kali.org/get-kali/#kali-installer-images" download="kali-linux-64bit.exe">
+    downlaod latest kali
+  </a>
+
+  <!-- mailt to anyEmail using mailto: linkin concpet -->
+  <br />
+  <br />
+  <br />
+
+  <a href="mailto:sonseldeep.np@gmail.com">Send mail To me</a>
 </body>
 
 </html>
