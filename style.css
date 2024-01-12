@@ -1,0 +1,20 @@
+.classname {
+  position: relative;
+  position: fixed;
+  d: fixed;
+  display: block;
+  display: inline;
+  display: inline-block;
+  visibility: hidden;
+  visibility: none;
+
+  overflow: hidden;
+  overflow: scroll;
+  cursor: pointer;
+  cursor: help;
+  margin: 9px;
+  margin: auto;
+  margin-top: 9px;
+  margin-bottom: 9px;
+  margin-left: 9px;
+}

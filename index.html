@@ -4,11 +4,114 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HTML 5</title>
+  <title>Emmet</title>
+
+
+  <!-- link tap  -->
+  <link rel="stylesheet" href="">
+
+
+  <!-- link:css  tab  -->
+  <link rel="stylesheet" href="style.css">
+
+
+
 </head>
 
 <body>
+  <!-- h1#main tab  
+  note: # for id
+  -->
+  <h1 id="main"></h1>
+  <!-- 
+ for class
+ p.classname tab  -->
+  <p class="para pw">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, doloremque.
+
+  </p>
+  <!-- p.try{hello}
+  it indicates p has class as try and text as hello -->
+  <p class="try">hello</p>
+
+
+  <!--  
+  for custom value 
+  we use p{text} and press tab -->
+
+  <p>I am custom text</p>
+  <div>
+    <ul>
+      <li></li>
+    </ul>
+  </div>
+
+
+
+
+  <!-- for sibling relationship
+  we use 
+  div>p+p+p and press tab  -->
+
+  <!-- <div>
+    <p></p>
+    <p></p>
+    <p></p> -->
+
+  </div>
+
+
+  <!-- for this we use div>ul>li* 4  -->
+
+  <div>
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>
+
+
+
+  <!-- for this we use 
+  div>ul>li*n>a -->
+  <div>
+    <ul>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+    </ul>
+  </div>
 
 </body>
+
+
+<!-- 
+ for grouping complex structure can be made in easy
+ div>()+footer 
+ div>(nav>ul>li*n>a{text})+ footer>ul>li>p -->
+
+
+<div>
+  <nav>
+    <ul>
+      <li><a href="">custom</a></li>
+      <li><a href="">custom</a></li>
+      <li><a href="">custom</a></li>
+      <li><a href="">custom</a></li>
+    </ul>
+  </nav>
+  <footer>
+    <ul>
+      <li>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </li>
+    </ul>
+  </footer>
+</div>
+
 
 </html>
